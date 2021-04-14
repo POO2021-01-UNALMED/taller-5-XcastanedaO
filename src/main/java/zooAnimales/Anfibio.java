@@ -29,7 +29,7 @@ public class Anfibio extends Animal {
 	}
 	
 	public String movimiento() {
-		return "Saltar";
+		return "saltar";
 	}
 	
 	public static Animal crearRana(String nom,int edad,String gen) {
