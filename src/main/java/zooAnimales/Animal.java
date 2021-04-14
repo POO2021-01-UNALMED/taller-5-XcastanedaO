@@ -31,7 +31,7 @@ public class Animal {
 	}
 	
 	public String getGenero() {
-		return this.getGenero();
+		return this.genero;
 	}
 	
 	public String getHabitat() {
