@@ -45,7 +45,6 @@ public class Ave extends Animal {
 	}
 
 	public String getColorPlumas() {
-		// TODO Esbozo de método generado automáticamente
 		return this.colorPlumas;
 	}
 }
