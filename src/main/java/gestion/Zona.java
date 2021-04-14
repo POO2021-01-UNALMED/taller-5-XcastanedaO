@@ -23,7 +23,7 @@ public class Zona {
 		return this.animales;
 	}
 	
-	public void agregueAnimales(Animal animal) {
+	public void agregarAnimales(Animal animal) {
 		this.animales.add(animal);
 	}
 	
@@ -35,5 +35,12 @@ public class Zona {
 		return this.zoo;
 	}
 	
+	public String getNombre() {
+		return this.nombre;
+	}
 
+	
+	public Zoologico getZoo() {
+		return this.zoo;
+	}
 }

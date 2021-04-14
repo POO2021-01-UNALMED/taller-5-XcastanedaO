@@ -13,6 +13,7 @@ public class Animal {
 	//private Zona[] zona;
 	//private ArrayList<Zona> zona = new ArrayList();
 	private Zona zona;
+	
 	public Animal() {
 		
 	}
@@ -45,16 +46,28 @@ public class Animal {
 		return this.zona;
 	}
 	
-	
-	
-	
-	
-	
-	public void movimiento(){
-		return this.movimiento();
+	public void setHabitat(String habitat) {
+		this.habitat = habitat;
 	}
 	
-	public String totalPorTipo() {
+	public void setNombre(String nom) {
+		this.nombre = nom;
+	}
+	
+	public void setEdad(int edad) {
+		this.edad = edad;
+	}
+	
+	public void setGenero(String genero) {
+		this.genero = genero;
+	}
+	
+	
+	public String movimiento(){
+		return "desplazarse";
+	}
+	
+	public static String totalPorTipo() {
 		return "Mamiferos: " + Mamifero.cantidadMamiferos() + "/n" +
 				"Aves: " + Ave.cantidadAves() + "/n" +
 				"Reptiles: " + Reptil.cantidadReptiles() + "/n"+

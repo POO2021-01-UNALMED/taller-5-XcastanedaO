@@ -35,6 +35,10 @@ public class Zoologico {
 	public String getNombre() {
 		return this.nombre;
 	}
+
+	public ArrayList<Zona> getZona() {
+		return this.zona;
+	}
 	
 	
 	
