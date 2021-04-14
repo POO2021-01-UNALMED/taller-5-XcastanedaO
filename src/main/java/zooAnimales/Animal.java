@@ -35,7 +35,7 @@ public class Animal {
 	}
 	
 	public String getHabitat() {
-		return this.getHabitat();
+		return this.habitat;
 	}
 	
 	public int getEdad() {
