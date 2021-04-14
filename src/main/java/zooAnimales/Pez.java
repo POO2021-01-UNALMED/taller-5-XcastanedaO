@@ -47,7 +47,7 @@ public class Pez extends Animal {
 	}
 
 	public Object getColorEscamas() {
-		return this.getColorEscamas();
+		return this.colorEscamas;
 	}
 
 	public int getCantidadAletas() {
