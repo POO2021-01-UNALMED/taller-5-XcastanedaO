@@ -25,6 +25,10 @@ public class Mamifero extends Animal{
 	}
 	
 	
+	public  String movimiento() {
+		return "desplazarse";
+	}
+	
 	public static int cantidadMamiferos() {
 		return listado.size();
 	}
