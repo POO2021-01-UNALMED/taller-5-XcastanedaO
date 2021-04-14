@@ -9,7 +9,7 @@ public class Ave extends Animal {
 	private String colorPlumas;
 	
 	public Ave() {
-		
+	   listado.add(this);	
 	}
 	
 	public Ave(String nom, int edad, String habitat, String gen, String col) {
