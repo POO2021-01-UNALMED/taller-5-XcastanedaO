@@ -15,7 +15,7 @@ public class Animal {
 	private Zona zona;
 	
 	public Animal() {
-		
+		this.totalAnimales++;
 	}
 	
 	public Animal(String nom,int edad, String habitat, String gen) {
